@@ -1,0 +1,123 @@
+/* Base Reset */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff0f5; /* lavender blush */
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Box */
+.container {
+  max-width: 600px;
+  margin: 3em auto;
+  background-color: #ffffff;
+  padding: 2em;
+  border-radius: 1em;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Search Input & Button */
+.search-container {
+  display: flex;
+  gap: 1em;
+}
+
+input {
+  flex: 1;
+  padding: 0.6em;
+  font-size: 1em;
+  border: 2px solid #ffc9d1;
+  border-radius: 0.4em;
+  outline: none;
+  background-color: #fff6f8;
+}
+
+button {
+  font-size: 1em;
+  padding: 0.6em 1em;
+  background-color: #ffb6b9; /* pastel pink */
+  border: none;
+  border-radius: 0.4em;
+  color: #3a3a3a;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff9aa2;
+}
+
+/* Meal Card Style */
+.meal-card {
+  background-color: #ffffff;
+  border: 2px solid #ffe5ec;
+  border-radius: 1em;
+  margin-bottom: 2em;
+  padding: 1.5em;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+/* Meal Image */
+img {
+  width: 100%;
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
+
+/* Details */
+.details h2,
+.details h4 {
+  text-align: center;
+  color: #3a3a3a;
+  margin: 0.3em 0;
+}
+
+/* Ingredients */
+.ingredient-con {
+  margin-top: 1em;
+  color: #4e4e4e;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1em;
+  line-height: 1.6em;
+}
+
+/* Recipe Toggle Button */
+.toggle-recipe {
+  margin-top: 1em;
+  background-color: #ffb6b9;
+  color: #3a3a3a;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.4em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-recipe:hover {
+  background-color: #ff9aa2;
+}
+
+/* Recipe Box */
+.recipe {
+  margin-top: 1em;
+  background-color: #fff6f8;
+  padding: 1em;
+  border-radius: 0.8em;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
+  max-height: 200px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.4em;
+  color: #3a3a3a;
+}
+
+/* Hidden Class */
+.hidden {
+  display: none;
+}
